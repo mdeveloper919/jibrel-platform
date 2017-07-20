@@ -1,0 +1,102 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getInvestorRepository",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getBODC",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getJibrelDAO",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getCryDRRepository",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "newAddress",
+        "type": "address"
+      }
+    ],
+    "name": "BODCChangedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "newAddress",
+        "type": "address"
+      }
+    ],
+    "name": "JibrelDAOChangedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "newAddress",
+        "type": "address"
+      }
+    ],
+    "name": "InvestorRepositoryChangedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "newAddress",
+        "type": "address"
+      }
+    ],
+    "name": "CryDRRepositoryChangedEvent",
+    "type": "event"
+  }
+]

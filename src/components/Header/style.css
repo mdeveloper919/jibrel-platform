@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d3d3d3;
+  font-family: "Lato";
+  height: 70px;
+  z-index: 2;}
+  nav i:hover {
+    cursor: pointer;
+    color: #1155cc;}
+
+.mobile {
+  padding: 1.7em 1em;}
+
+.hamburger {
+  position: absolute;
+  left: 1em;
+}
+
+.nav-mobile {
+  color: #ababab;
+  padding-left: 2em;
+  font-weight: 300;
+  padding-right: 2em;
+  margin-left: -20px;
+  margin-right: -20px;}
+
+.li-mobile {
+  border-bottom: 1px solid #d3d3d3;
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  text-align: left;
+  line-height: 50px;
+  font-family: "Lato";
+  color: #a9a9a9;
+  background: #ffffff;
+  text-decoration: none;
+}
+.li-mobile:hover {
+  cursor: pointer;
+  color: #1155cc;
+  background-color: rgba(0, 0, 0, 0);
+}
+.li-mobile-click {
+  border-bottom: 1px solid #d3d3d3;
+  display: block;
+  height: 50px;
+  text-align: left;
+  line-height: 50px;
+  font-family: "Lato";
+  color: #1155cc;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.nav_normal {
+  line-height: 35px;
+  width: 97%;
+  text-align: center;
+  }
+  .nav_normal ul {
+    margin: 0;
+    line-height: 70px; }
+
+.li-normal {
+  position: relative;
+  margin: auto;
+  font-family: "Lato";
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 5em;
+  font-weight: 300;
+  color: #a9a9a9;}
+  .li-normal:hover {
+    cursor: pointer;
+    color: #1155cc;
+    background-color: rgba(0, 0, 0, 0);
+  }
+.li-normal-click {
+  position: relative;
+  margin: auto;
+  font-family: "Lato";
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 5em;
+  font-weight: 300;
+  color: #1155cc;
+}
+
+.mobile-center {
+  font-family: "Lato";
+  font-size: 16px;
+  display: block;
+  font-weight: 200;
+  text-align: center;
+  color: #a9a9a9; }
+
+.logo-text {
+  font-size: 12px;
+  display: inline-block;
+  line-height: 1.2em;
+  font-weight: 200;
+  text-align: left;
+  vertical-align: middle;
+  color: #a9a9a9; }
+  .li-logo {
+    position: relative;
+    right: 70px;
+    text-align: center;
+    margin-right: 200px;
+    display: inline-block;
+  }
+  .li-logo img{
+    vertical-align: middle;
+    padding-right: 0.5em;
+    width: auto;
+    height: 40px;
+  }
+  .li-logo:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .li-right {
+    font-family: "Lato";
+    font-size: 11px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 150px;
+    color: #1155cc;
+    text-decoration: underline; }
+  .pig-button {
+    margin-left: 100px;
+    width: 160px;
+    vertical-align: middle;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+  }
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.4
+}

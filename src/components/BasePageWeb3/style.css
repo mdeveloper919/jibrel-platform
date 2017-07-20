@@ -1,0 +1,54 @@
+
+.blue-div {
+  background-color: #1155cc;
+  width: 100%;
+  height: 480px;
+  font-family: "Lato";
+  font-weight: 200;
+  text-align: center;
+  display: inline-block;
+}
+.table-div {
+  width: 100%;
+  text-align: center;
+  display: table;
+  position: relative;
+  margin: auto;
+}
+.left-div {
+  width: 60%;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+.right-div {
+  width: 40%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.img_div{
+  width: 250px;
+  height: auto;
+}
+.img_div_mobile {
+  width: 68%;
+  height: auto;
+}
+.title_div {
+  font-weight: 400;
+  line-height: 1.5em;
+  font-size: 42px;
+  margin-top: -0.5em;
+}
+.desciption {
+  margin-top: -1em;
+  font-weight: 200;
+  line-height: 1.5em;
+  font-size: 24px;
+}
+.error_div {
+  font-weight: 400;
+  color: #c9daf8;
+  line-height: 1.5em;
+  font-size: 22px;
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_investor",
+        "type": "address"
+      }
+    ],
+    "name": "isInvestorAdmitted",
+    "outputs": [
+      {
+        "name": "result",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_investor",
+        "type": "address"
+      },
+      {
+        "name": "_requiredInvestorLicense",
+        "type": "string"
+      }
+    ],
+    "name": "isInvestorGranted",
+    "outputs": [
+      {
+        "name": "result",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "investor",
+        "type": "address"
+      }
+    ],
+    "name": "InvestorEnabledEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "investor",
+        "type": "address"
+      }
+    ],
+    "name": "InvestorDisabledEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "investor",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "license",
+        "type": "string"
+      }
+    ],
+    "name": "InvestorLicenseGrantedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "investor",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "license",
+        "type": "string"
+      }
+    ],
+    "name": "InvestorLicenseCancelledEvent",
+    "type": "event"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_CryDRSymbol",
+        "type": "string"
+      }
+    ],
+    "name": "lookupCryDR",
+    "outputs": [
+      {
+        "name": "_CryDRAddress",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getCryDRData",
+    "outputs": [
+      {
+        "name": "_CryDRData",
+        "type": "string"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "CryDRAddress",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "CryDRName",
+        "type": "string"
+      },
+      {
+        "indexed": true,
+        "name": "CryDRSymbol",
+        "type": "string"
+      }
+    ],
+    "name": "CryDRAddedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "CryDRAddress",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "CryDRName",
+        "type": "string"
+      },
+      {
+        "indexed": true,
+        "name": "CryDRSymbol",
+        "type": "string"
+      }
+    ],
+    "name": "CryDRRemovedEvent",
+    "type": "event"
+  }
+]

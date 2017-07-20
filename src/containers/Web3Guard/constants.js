@@ -1,0 +1,40 @@
+/*
+ * Web3Guard constants
+ */
+
+
+// Statuses
+
+export const WEB3__CONNECTION_STATUS__NOT_INITIALIZED    = 'web3/global/CONNECTION_STATUS__NOT_INITIALIZED';
+export const WEB3__CONNECTION_STATUS__CONNECTION_ATTEMPT = 'web3/global/CONNECTION_STATUS__CONNECTION_ATTEMPT';
+export const WEB3__CONNECTION_STATUS__SUCCESS            = 'web3/global/CONNECTION_STATUS__SUCCESS';
+export const WEB3__CONNECTION_STATUS__FAILURE            = 'web3/global/CONNECTION_STATUS__FAILURE';
+
+export const WEB3__NETWORK_STATUS__NOT_INITIALIZED = 'web3/global/NETWORK_STATUS__NOT_INITIALIZED';
+export const WEB3__NETWORK_STATUS__REQUEST_SENT    = 'web3/global/NETWORK_STATUS__REQUEST_SENT';
+export const WEB3__NETWORK_STATUS__SUCCESS         = 'web3/global/NETWORK_STATUS__SUCCESS';
+export const WEB3__NETWORK_STATUS__FAILURE         = 'web3/global/NETWORK_STATUS__FAILURE';
+
+export const WEB3__ACCOUNTS_STATUS__NOT_INITIALIZED = 'web3/global/ACCOUNTS_STATUS__NOT_INITIALIZED';
+export const WEB3__ACCOUNTS_STATUS__REQUEST_SENT    = 'web3/global/ACCOUNTS_STATUS__REQUEST_SENT';
+export const WEB3__ACCOUNTS_STATUS__SUCCESS         = 'web3/global/ACCOUNTS_STATUS__SUCCESS';
+export const WEB3__ACCOUNTS_STATUS__FAILURE         = 'web3/global/ACCOUNTS_STATUS__FAILURE';
+
+export const WEB3__PROVIDER_TYPE__INJECTED = 'web3/global/PROVIDER_TYPE__INJECTED';
+export const WEB3__PROVIDER_TYPE__TESTRPC  = 'web3/global/PROVIDER_TYPE__TESTRPC';
+
+
+// Actions
+
+export const WEB3__INIT_CONNECTION        = 'web3/global/INIT_CONNECTION';
+export const WEB3__CONNECTION_INITIALIZED = 'web3/global/CONNECTION_INITIALIZED';
+export const WEB3__CONNECTION_FAILED      = 'web3/global/CONNECTION_FAILED';
+
+export const WEB3__LAUNCH_NETWORK_POLLING = 'web3/global/LAUNCH_NETWORK_POLLING';
+export const WEB3__NETWORK_SUCCESS        = 'web3/global/NETWORK_SUCCESS';
+export const WEB3__NETWORK_FAILURE        = 'web3/global/NETWORK_FAILURE';
+
+export const WEB3__LAUNCH_ACCOUNTS_POLLING = 'web3/global/LAUNCH_ACCOUNTS_POLLING';
+export const WEB3__ACCOUNTS_SUCCESS        = 'web3/global/ACCOUNTS_SUCCESS';
+export const WEB3__ACCOUNTS_FAILURE        = 'web3/global/ACCOUNTS_FAILURE';
+
